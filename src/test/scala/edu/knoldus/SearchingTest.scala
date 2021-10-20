@@ -17,6 +17,7 @@ class SearchingTest extends AnyFunSuite {
     assert(!searching.binarySearch(array, 17))
   }
 
+
   test("Linear Search when element exist") {
     assert(searching.linearSearch(array, 7))
   }
@@ -26,3 +27,4 @@ class SearchingTest extends AnyFunSuite {
   }
 
 }
+
